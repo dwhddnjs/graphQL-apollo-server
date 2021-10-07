@@ -1,5 +1,4 @@
 const { gql } = require("apollo-server");
-const { multiply } = require("lodash");
 const dbWorks = require("../dbWorks");
 
 const typeDefs = gql`
